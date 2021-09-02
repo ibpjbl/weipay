@@ -66,7 +66,7 @@ static CGFloat const SPACING = 4.0;
     label.adjustsFontForContentSizeCategory = YES;
     label.adjustsFontSizeToFitWidth = YES;
     label.minimumScaleFactor = 0.5;
-    label.textColor = [UIColor dw_lightTitleColor];
+    label.textColor = [UIColor dw_darkTitleColor];
     label.textAlignment = NSTextAlignmentCenter;
     [label setContentCompressionResistancePriority:UILayoutPriorityDefaultHigh + 1
                                            forAxis:UILayoutConstraintAxisVertical];

@@ -112,7 +112,7 @@ static BOOL ShouldResizeLogoToSmall(BOOL hasAmount) {
 }
 
 - (UIImage *)qrCodeImageWithRawQRImage:(UIImage *)rawQRImage hasAmount:(BOOL)hasAmount {
-    UIImage *overlayImage = [UIImage imageNamed:@"dash_logo_qr"];
+    UIImage *overlayImage = [UIImage imageNamed:@"wei_logo_qr"];
     NSParameterAssert(overlayImage);
 
     CGSize size = overlayImage.size;

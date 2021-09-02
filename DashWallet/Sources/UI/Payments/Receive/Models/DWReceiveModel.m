@@ -29,9 +29,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DWReceiveModel ()
 
 @property (nullable, nonatomic, strong) UIImage *qrCodeImage;
+@property (nullable, nonatomic, strong) UIImage *qrCodeImage2;
 @property (nullable, nonatomic, copy) NSString *paymentAddress;
 @property (nullable, nonatomic, strong) DSPaymentRequest *paymentRequest;
 @property (nonatomic, strong) dispatch_queue_t updateQueue;
+@property int wallet_id;
 
 @end
 

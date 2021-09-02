@@ -31,19 +31,19 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Montserrat-Regular.otf</string>
-		<string>Montserrat-Light.otf</string>
-		<string>Montserrat-Bold.otf</string>
-		<string>Montserrat-Italic.otf</string>
-		<string>Montserrat-SemiBold.otf</string>
-		<string>Montserrat-Thin.otf</string>
-		<string>Montserrat-Medium.otf</string>
-		<string>Montserrat-ExtraLight.otf</string>
-		<string>Montserrat-ExtraLightItalic.otf</string>
-		<string>Montserrat-LightItalic.otf</string>
-		<string>Montserrat-MediumItalic.otf</string>
-		<string>Montserrat-SemiBoldItalic.otf</string>
-		<string>Montserrat-ThinItalic.otf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>Roboto-SemiBold.ttf</string>
+		<string>Roboto-Thin.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-ExtraLight.ttf</string>
+		<string>Roboto-ExtraLightItalic.ttf</string>
+		<string>Roboto-LightItalic.ttf</string>
+		<string>Roboto-MediumItalic.ttf</string>
+		<string>Roboto-SemiBoldItalic.ttf</string>
+		<string>Roboto-ThinItalic.ttf</string>
 	</array>
 </dict>
 </plist>

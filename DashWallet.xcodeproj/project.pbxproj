@@ -98,7 +98,6 @@
 		2A4430EE22CBBAC9009BAF7F /* DWSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4430ED22CBBAC9009BAF7F /* DWSetupViewController.m */; };
 		2A4430F222CBD57A009BAF7F /* AppAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4430F122CBD57A009BAF7F /* AppAssets.xcassets */; };
 		2A44311722CBF0B2009BAF7F /* UIFont+DWFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44311622CBF0B2009BAF7F /* UIFont+DWFont.m */; };
-		2A44311922CBF108009BAF7F /* Montserrat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A44311822CBF108009BAF7F /* Montserrat.plist */; };
 		2A44311E22CC9B5A009BAF7F /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44311D22CC9B5A009BAF7F /* DWNavigationController.m */; };
 		2A44312122CCA2A0009BAF7F /* UIColor+DWStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44312022CCA2A0009BAF7F /* UIColor+DWStyle.m */; };
 		2A44312622CCC14F009BAF7F /* DWSetPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44312522CCC14F009BAF7F /* DWSetPinViewController.m */; };
@@ -456,6 +455,30 @@
 		75D5F3F3191EC270004AB296 /* DashWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5F3F2191EC270004AB296 /* DashWalletTests.m */; };
 		75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 75E83CF51B5F997A0038FB70 /* coinflip.aiff */; };
 		7EE06A55AFE483FA7824B06E /* libPods-DashWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE29AA65F429DD9EF1A1A7 /* libPods-DashWalletTests.a */; };
+		91DCC1B026B780EC00EE0900 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */; };
+		91DCC1B126B780EC00EE0900 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */; };
+		91DCC1B226B780EC00EE0900 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */; };
+		91DCC1B326B780EC00EE0900 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */; };
+		91DCC1B426B780EC00EE0900 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */; };
+		91DCC1B526B780EC00EE0900 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */; };
+		91DCC1B626B780EC00EE0900 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */; };
+		91DCC1B726B780EC00EE0900 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */; };
+		91DCC1B826B780EC00EE0900 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */; };
+		91DCC1B926B780EC00EE0900 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */; };
+		91DCC1BA26B780EC00EE0900 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */; };
+		91DCC1BB26B780EC00EE0900 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */; };
+		91DCC1BC26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */; };
+		91DCC1BD26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */; };
+		91DCC1BE26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */; };
+		91DCC1BF26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */; };
+		91DCC1C026B780EC00EE0900 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */; };
+		91DCC1C126B780EC00EE0900 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */; };
+		91DCC1C326B7819A00EE0900 /* Roboto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1C226B7819A00EE0900 /* Roboto.plist */; };
+		91DCC1C426B7819A00EE0900 /* Roboto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1C226B7819A00EE0900 /* Roboto.plist */; };
+		91DCC1C526B7819A00EE0900 /* Roboto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1C226B7819A00EE0900 /* Roboto.plist */; };
+		91DCC1C626B7819A00EE0900 /* Roboto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1C226B7819A00EE0900 /* Roboto.plist */; };
+		91DCC1C726B7819B00EE0900 /* Roboto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1C226B7819A00EE0900 /* Roboto.plist */; };
+		91DCC1C826B7819B00EE0900 /* Roboto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91DCC1C226B7819A00EE0900 /* Roboto.plist */; };
 		BA4A72671BE11AFA00E39C01 /* BRAWWeakTimerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A72661BE11AFA00E39C01 /* BRAWWeakTimerTarget.swift */; };
 		BA54D3CE1B2EA74000C9CB28 /* TodayExtensionAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA54D3CD1B2EA74000C9CB28 /* TodayExtensionAssets.xcassets */; };
 		BA6645961BD924EB007A6BB1 /* BRAWTransactionRowControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6645951BD924EB007A6BB1 /* BRAWTransactionRowControl.swift */; };
@@ -501,18 +524,6 @@
 		FBF3F42D1E42B00C00C7248E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF3F42C1E42B00C00C7248E /* UIKit.framework */; };
 		FBF3F42F1E42B01E00C7248E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF3F42E1E42B01E00C7248E /* CoreGraphics.framework */; };
 		FBF3F4311E42B02800C7248E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF3F4301E42B02800C7248E /* ImageIO.framework */; };
-		FBFC2EC521137A7A00D20C57 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA421137A7900D20C57 /* Montserrat-Regular.otf */; };
-		FBFC2EC621137A7A00D20C57 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA421137A7900D20C57 /* Montserrat-Regular.otf */; };
-		FBFC2EC721137A7A00D20C57 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA421137A7900D20C57 /* Montserrat-Regular.otf */; };
-		FBFC2EC821137A7A00D20C57 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA421137A7900D20C57 /* Montserrat-Regular.otf */; };
-		FBFC2ED521137A7A00D20C57 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA821137A7900D20C57 /* Montserrat-Medium.otf */; };
-		FBFC2ED621137A7A00D20C57 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA821137A7900D20C57 /* Montserrat-Medium.otf */; };
-		FBFC2ED721137A7A00D20C57 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA821137A7900D20C57 /* Montserrat-Medium.otf */; };
-		FBFC2ED821137A7A00D20C57 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EA821137A7900D20C57 /* Montserrat-Medium.otf */; };
-		FBFC2EE521137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EAC21137A7A00D20C57 /* Montserrat-SemiBold.otf */; };
-		FBFC2EE621137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EAC21137A7A00D20C57 /* Montserrat-SemiBold.otf */; };
-		FBFC2EE721137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EAC21137A7A00D20C57 /* Montserrat-SemiBold.otf */; };
-		FBFC2EE821137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFC2EAC21137A7A00D20C57 /* Montserrat-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -770,7 +781,6 @@
 		2A4430F122CBD57A009BAF7F /* AppAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppAssets.xcassets; sourceTree = "<group>"; };
 		2A44311522CBF0B2009BAF7F /* UIFont+DWFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+DWFont.h"; sourceTree = "<group>"; };
 		2A44311622CBF0B2009BAF7F /* UIFont+DWFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DWFont.m"; sourceTree = "<group>"; };
-		2A44311822CBF108009BAF7F /* Montserrat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Montserrat.plist; sourceTree = "<group>"; };
 		2A44311C22CC9B5A009BAF7F /* DWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		2A44311D22CC9B5A009BAF7F /* DWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
 		2A44311F22CCA2A0009BAF7F /* UIColor+DWStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DWStyle.h"; sourceTree = "<group>"; };
@@ -1521,6 +1531,17 @@
 		7EEDF75116E60BB9EE9C80FB /* Pods-WatchApp.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.testnet.xcconfig"; sourceTree = "<group>"; };
 		87872BF3D40B38CD0FC246AB /* Pods-DashWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DashWalletTests/Pods-DashWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9877BEC5093CED81768D3D /* Pods-TodayExtension.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.testnet.xcconfig"; sourceTree = "<group>"; };
+		91031F2426B6D5C4007AA2AB /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		91031F2626B6D67B007AA2AB /* libbls_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbls_ios.a; path = "Pods/bls-signatures-pod/artefacts/libbls_ios.a"; sourceTree = "<group>"; };
+		91031F2726B6D67B007AA2AB /* libgmp_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp_ios.a; path = "Pods/bls-signatures-pod/artefacts/libgmp_ios.a"; sourceTree = "<group>"; };
+		91031F2826B6D67B007AA2AB /* librelic_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librelic_ios.a; path = "Pods/bls-signatures-pod/artefacts/librelic_ios.a"; sourceTree = "<group>"; };
+		91CAAF5D26B6D71B002C6961 /* DSDynamicOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSDynamicOptions.m; path = Pods/DSDynamicOptions/DSDynamicOptions/DSDynamicOptions.m; sourceTree = "<group>"; };
+		91CAAF5E26B6D71B002C6961 /* DSDynamicOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSDynamicOptions.h; path = Pods/DSDynamicOptions/DSDynamicOptions/DSDynamicOptions.h; sourceTree = "<group>"; };
+		91CAAF6126B6D781002C6961 /* .cocoapods */ = {isa = PBXFileReference; lastKnownFileType = folder; name = .cocoapods; path = ../.cocoapods; sourceTree = "<group>"; };
+		91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../Downloads/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../Downloads/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../Downloads/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		91DCC1C226B7819A00EE0900 /* Roboto.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Roboto.plist; sourceTree = "<group>"; };
 		934DC791C539EABD2EE14E81 /* Pods-dashwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashwallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-dashwallet/Pods-dashwallet.release.xcconfig"; sourceTree = "<group>"; };
 		982607F21196681DAC51A074 /* libPods-dashwallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dashwallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169BE797EC811F83373CCB9 /* Pods_dashwallet_no_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dashwallet_no_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1628,9 +1649,6 @@
 		FBF3F42C1E42B00C00C7248E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBF3F42E1E42B01E00C7248E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FBF3F4301E42B02800C7248E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		FBFC2EA421137A7900D20C57 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
-		FBFC2EA821137A7900D20C57 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
-		FBFC2EAC21137A7A00D20C57 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2096,7 +2114,7 @@
 		2A4430F022CBD566009BAF7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FBFC2E9E21137A4200D20C57 /* Montserrat */,
+				91DCC1AC26B780D100EE0900 /* Roboto */,
 				2A4430F122CBD57A009BAF7F /* AppAssets.xcassets */,
 				75E83CF51B5F997A0038FB70 /* coinflip.aiff */,
 			);
@@ -3938,6 +3956,13 @@
 		75D5F3C0191EC270004AB296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91CAAF6126B6D781002C6961 /* .cocoapods */,
+				91CAAF5E26B6D71B002C6961 /* DSDynamicOptions.h */,
+				91CAAF5D26B6D71B002C6961 /* DSDynamicOptions.m */,
+				91031F2626B6D67B007AA2AB /* libbls_ios.a */,
+				91031F2726B6D67B007AA2AB /* libgmp_ios.a */,
+				91031F2826B6D67B007AA2AB /* librelic_ios.a */,
+				91031F2426B6D5C4007AA2AB /* Pods */,
 				2A5279BB23D994BC00F856D3 /* CoreNFC.framework */,
 				2AA08533237D6CF500797F95 /* CloudKit.framework */,
 				2A0C6C852362EFAE00C86F37 /* libDashSync-Shared.a */,
@@ -4007,6 +4032,17 @@
 				2AAEF5422217EDDB000FC092 /* DWAmountObjectTests.m */,
 			);
 			path = DashWalletTests;
+			sourceTree = "<group>";
+		};
+		91DCC1AC26B780D100EE0900 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				91DCC1C226B7819A00EE0900 /* Roboto.plist */,
+				91DCC1AE26B780EB00EE0900 /* Roboto-Bold.ttf */,
+				91DCC1AD26B780EB00EE0900 /* Roboto-Medium.ttf */,
+				91DCC1AF26B780EB00EE0900 /* Roboto-Regular.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 		BA913BDF1BD57E4D005A7C0E /* WatchApp */ = {
@@ -4136,17 +4172,6 @@
 				2AB66E0723572379007BE825 /* Overview */,
 			);
 			path = "Masternode Keys";
-			sourceTree = "<group>";
-		};
-		FBFC2E9E21137A4200D20C57 /* Montserrat */ = {
-			isa = PBXGroup;
-			children = (
-				2A44311822CBF108009BAF7F /* Montserrat.plist */,
-				FBFC2EA821137A7900D20C57 /* Montserrat-Medium.otf */,
-				FBFC2EA421137A7900D20C57 /* Montserrat-Regular.otf */,
-				FBFC2EAC21137A7A00D20C57 /* Montserrat-SemiBold.otf */,
-			);
-			path = Montserrat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4383,6 +4408,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DCC1C126B780EC00EE0900 /* Roboto-Regular.ttf in Resources */,
+				91DCC1C826B7819B00EE0900 /* Roboto.plist in Resources */,
+				91DCC1BB26B780EC00EE0900 /* Roboto-Bold.ttf in Resources */,
+				91DCC1B526B780EC00EE0900 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4404,14 +4433,13 @@
 				2A6300422328CCE900827825 /* LockScreen.storyboard in Resources */,
 				2A9FFEA02230FF4700956D5F /* UpholdMainStoryboard.storyboard in Resources */,
 				2ADC722923B5547000D9DD37 /* Localizable.stringsdict in Resources */,
+				91DCC1B626B780EC00EE0900 /* Roboto-Bold.ttf in Resources */,
+				91DCC1BC26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */,
 				2A2CD71822F99CAE008C7BC9 /* DWShortcutsView.xib in Resources */,
 				2A5E4549243E06E7006BA067 /* DWDPRegistrationStatusTableViewCell.xib in Resources */,
-				FBFC2EE521137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */,
 				2A9FFE942230FF4700956D5F /* UpholdOTPStoryboard.storyboard in Resources */,
 				2A4430F222CBD57A009BAF7F /* AppAssets.xcassets in Resources */,
 				2A8B9E6222FF712000FF8653 /* DWPayTableViewCell.xib in Resources */,
-				FBFC2ED521137A7A00D20C57 /* Montserrat-Medium.otf in Resources */,
-				FBFC2EC521137A7A00D20C57 /* Montserrat-Regular.otf in Resources */,
 				75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */,
 				2ADF83FF23633116008459A7 /* SharedAssets.xcassets in Resources */,
 				2A4431C522D4CAFA009BAF7F /* BackupInfo.storyboard in Resources */,
@@ -4420,8 +4448,10 @@
 				2A0C69F423179C0F001B8C90 /* DWConfirmPaymentContentView.xib in Resources */,
 				2ACCD86323193C1E00A96B62 /* DWReceiveContentView.xib in Resources */,
 				2A307CB822E7006F00A18347 /* DWBalanceView.xib in Resources */,
+				91DCC1B026B780EC00EE0900 /* Roboto-Medium.ttf in Resources */,
 				C3DAD2C9247538AA0001624F /* DWTitleActionHeaderView.xib in Resources */,
 				2A10EB3E2358BDA500C38B61 /* ImportWalletInfo.storyboard in Resources */,
+				91DCC1C326B7819A00EE0900 /* Roboto.plist in Resources */,
 				2AD1CE8622DC9B7300C99324 /* VerifySeedPhrase.storyboard in Resources */,
 				2A7F3B21238C653000DEA3EF /* DWSecurityStatusView.xib in Resources */,
 				2AB7C907234DB82700A56795 /* About.storyboard in Resources */,
@@ -4432,7 +4462,6 @@
 				2A9FFF3122350CE500956D5F /* DWAmountInputControl.xib in Resources */,
 				2A9FFE8F2230FF4700956D5F /* UpholdAuthStoryboard.storyboard in Resources */,
 				2AFF01E6243F8626003718DC /* DWDPRegistrationDoneTableViewCell.xib in Resources */,
-				2A44311922CBF108009BAF7F /* Montserrat.plist in Resources */,
 				2A10EB412358D2A900C38B61 /* ResetWalletInfo.storyboard in Resources */,
 				FB66977F212C0B940034BE4F /* LaunchScreen.storyboard in Resources */,
 				2A8B9E5C22FF6FE500FF8653 /* Pay.storyboard in Resources */,
@@ -4451,6 +4480,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DCC1BE26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */,
+				91DCC1C526B7819A00EE0900 /* Roboto.plist in Resources */,
+				91DCC1B826B780EC00EE0900 /* Roboto-Bold.ttf in Resources */,
+				91DCC1B226B780EC00EE0900 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4458,12 +4491,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBFC2EE721137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */,
-				FBFC2ED721137A7A00D20C57 /* Montserrat-Medium.otf in Resources */,
 				BA7B537B1BDD1DCF00355E8D /* LoadingIndicator.xcassets in Resources */,
+				91DCC1B326B780EC00EE0900 /* Roboto-Medium.ttf in Resources */,
 				BA913BE41BD57E4D005A7C0E /* Assets.xcassets in Resources */,
 				BA913BE21BD57E4D005A7C0E /* Interface.storyboard in Resources */,
-				FBFC2EC721137A7A00D20C57 /* Montserrat-Regular.otf in Resources */,
+				91DCC1BF26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */,
+				91DCC1B926B780EC00EE0900 /* Roboto-Bold.ttf in Resources */,
+				91DCC1C626B7819A00EE0900 /* Roboto.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4471,9 +4505,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBFC2EE821137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */,
-				FBFC2ED821137A7A00D20C57 /* Montserrat-Medium.otf in Resources */,
-				FBFC2EC821137A7A00D20C57 /* Montserrat-Regular.otf in Resources */,
+				91DCC1C026B780EC00EE0900 /* Roboto-Regular.ttf in Resources */,
+				91DCC1B426B780EC00EE0900 /* Roboto-Medium.ttf in Resources */,
+				91DCC1BA26B780EC00EE0900 /* Roboto-Bold.ttf in Resources */,
+				91DCC1C726B7819B00EE0900 /* Roboto.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4481,13 +4516,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DCC1B126B780EC00EE0900 /* Roboto-Medium.ttf in Resources */,
 				2A741DC223639A9700840ADF /* TodayExtension.storyboard in Resources */,
-				FBFC2EE621137A7A00D20C57 /* Montserrat-SemiBold.otf in Resources */,
-				FBFC2ED621137A7A00D20C57 /* Montserrat-Medium.otf in Resources */,
+				91DCC1BD26B780EC00EE0900 /* Roboto-Regular.ttf in Resources */,
 				BA54D3CE1B2EA74000C9CB28 /* TodayExtensionAssets.xcassets in Resources */,
+				91DCC1B726B780EC00EE0900 /* Roboto-Bold.ttf in Resources */,
+				91DCC1C426B7819A00EE0900 /* Roboto.plist in Resources */,
 				2A741DC323639C7E00840ADF /* Localizable.strings in Resources */,
 				2ADF840023633121008459A7 /* SharedAssets.xcassets in Resources */,
-				FBFC2EC621137A7A00D20C57 /* Montserrat-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5553,6 +5589,10 @@
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/bls-signatures-pod/artefacts",
+				);
 				MARKETING_VERSION = 5.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5583,6 +5623,10 @@
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/bls-signatures-pod/artefacts",
+				);
 				MARKETING_VERSION = 5.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5861,6 +5905,10 @@
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/bls-signatures-pod/artefacts",
+				);
 				MARKETING_VERSION = 5.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6053,6 +6101,10 @@
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/bls-signatures-pod/artefacts",
+				);
 				MARKETING_VERSION = 5.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
 				PRODUCT_NAME = "$(TARGET_NAME)";

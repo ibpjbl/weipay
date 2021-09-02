@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zh6-OB-CNe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zh6-OB-CNe">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Montserrat-Medium.otf">
-            <string>Montserrat-Medium</string>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -36,7 +36,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsT-lW-QFC">
                                         <rect key="frame" x="44" y="0.0" width="255" height="44"/>
                                         <color key="backgroundColor" name="SecondaryBackgroundColor"/>
-                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
                                         <color key="textColor" name="DarkTitleColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -67,8 +67,8 @@
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hT-sr-wN7" userLabel="Segment Content View">
-                                <rect key="frame" x="16" y="112" width="343" height="44"/>
+                            <view alpha="0.0" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1hT-sr-wN7" userLabel="Segment Content View">
+                                <rect key="frame" x="16" y="112" width="343" height="0.0"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5nS-sr-YzK" customClass="DWSegmentedControl">
                                         <rect key="frame" x="0.0" y="2" width="343" height="40"/>
@@ -86,8 +86,8 @@
                                     <constraint firstAttribute="height" constant="44" id="t06-uS-A8t"/>
                                 </constraints>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZtR-LU-F8z" customClass="DWControllerCollectionView">
-                                <rect key="frame" x="0.0" y="156" width="375" height="622"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZtR-LU-F8z" customClass="DWControllerCollectionView">
+                                <rect key="frame" x="0.0" y="96" width="375" height="682"/>
                                 <color key="backgroundColor" name="SecondaryBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Cwf-Gm-cxH">
                                     <size key="itemSize" width="50" height="50"/>
@@ -98,6 +98,7 @@
                                 <cells/>
                             </collectionView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="un1-2d-gkb"/>
                         <color key="backgroundColor" name="SecondaryBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ZtR-LU-F8z" secondAttribute="trailing" id="4lH-DZ-DrY"/>
@@ -111,7 +112,6 @@
                             <constraint firstItem="ZtR-LU-F8z" firstAttribute="leading" secondItem="sqo-JG-nXd" secondAttribute="leading" id="utL-gh-M4q"/>
                             <constraint firstAttribute="bottomMargin" secondItem="ZtR-LU-F8z" secondAttribute="bottom" id="vny-n1-paS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="un1-2d-gkb"/>
                     </view>
                     <connections>
                         <outlet property="controllerCollectionView" destination="ZtR-LU-F8z" id="wrr-dC-7pS"/>
@@ -121,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Bg-LM-gMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-110" y="88"/>
+            <point key="canvasLocation" x="-111.2" y="87.931034482758619"/>
         </scene>
     </scenes>
     <resources>

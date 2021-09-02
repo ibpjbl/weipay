@@ -48,8 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.firstDescriptionLabel.text = NSLocalizedString(@"Buy Dash with Uphold account", nil);
-    self.secondDescriptionLabel.text = NSLocalizedString(@"Transfer Dash from your Uphold account to this wallet", nil);
+    self.firstDescriptionLabel.text = NSLocalizedString(@"Buy WEI with Uphold account", nil);
+    self.secondDescriptionLabel.text = NSLocalizedString(@"Transfer WEI from your Uphold account to this wallet", nil);
     self.firstDescriptionLabel.textColor = [UIColor dw_darkTitleColor];
     self.secondDescriptionLabel.textColor = [UIColor dw_darkTitleColor];
     self.firstDescriptionLabel.font = [UIFont dw_fontForTextStyle:UIFontTextStyleCallout];

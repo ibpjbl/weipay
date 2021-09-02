@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_END
 
 - (void)setupView {
     DWAnimatedShapeLayer *leftSideLayer = [DWAnimatedShapeLayer layer];
-    leftSideLayer.fillColor = [UIColor dw_darkBlueColor].CGColor;
+    leftSideLayer.fillColor = [UIColor dw_blackColor].CGColor;
     leftSideLayer.path = LeftSidePath().CGPath;
     leftSideLayer.opacity = 0;
     leftSideLayer.transform = LeftSideTransform();
@@ -170,7 +170,7 @@ NS_ASSUME_NONNULL_END
     _leftSideLayer = leftSideLayer;
 
     DWAnimatedShapeLayer *rightSideLayer = [DWAnimatedShapeLayer layer];
-    rightSideLayer.fillColor = [UIColor dw_darkBlueColor].CGColor;
+    rightSideLayer.fillColor = [UIColor dw_blackColor].CGColor;
     rightSideLayer.path = RightSidePath().CGPath;
     rightSideLayer.opacity = 0;
     rightSideLayer.transform = RightSideTransform();

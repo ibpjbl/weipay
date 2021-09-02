@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 + (UIColor *)dw_lightTitleColor {
-    UIColor *color = [UIColor colorNamed:@"LightTitleColor"];
+    UIColor *color = [UIColor colorNamed:@"DarkTitleColor"];
     NSParameterAssert(color);
     return color;
 }
@@ -87,8 +87,8 @@ NS_ASSUME_NONNULL_BEGIN
     return color;
 }
 
-+ (UIColor *)dw_darkBlueColor {
-    UIColor *color = [UIColor colorNamed:@"DarkBlueColor"];
++ (UIColor *)dw_blackColor {
+    UIColor *color = [UIColor colorNamed:@"BlackColor"];
     NSParameterAssert(color);
     return color;
 }
@@ -207,8 +207,8 @@ NS_ASSUME_NONNULL_BEGIN
     return color;
 }
 
-+ (UIColor *)dw_blueGradientStartColor {
-    UIColor *color = [UIColor colorNamed:@"BlueGradientStartColor"];
++ (UIColor *)dw_silverGradientStartColor {
+    UIColor *color = [UIColor colorNamed:@"SilverGradientStartColor"];
     NSParameterAssert(color);
     return color;
 }

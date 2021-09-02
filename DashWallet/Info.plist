@@ -9,7 +9,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Dash</string>
+	<string>WEIpay</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -138,9 +138,9 @@
 	<string>Used to save media data</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Montserrat-Regular.otf</string>
-		<string>Montserrat-SemiBold.otf</string>
-		<string>Montserrat-Medium.otf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-SemiBold.ttf</string>
+		<string>Roboto-Medium.ttf</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>

@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
             break;
         }
         case DWShortcutActionType_PayToAddress: {
-            [self payToAddressAction:sender];
+            [self.delegate homeViewControllerShowSendPayment:self];
             break;
         }
         case DWShortcutActionType_BuySellDash: {

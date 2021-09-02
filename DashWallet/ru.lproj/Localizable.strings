@@ -155,7 +155,7 @@
 "Buy Dash" = "Купить Dash";
 
 /* No comment provided by engineer. */
-"Buy Dash with Uphold account" = "Купить Dash с помощью Uphold";
+"Buy WEI with Uphold account" = "Купить WEI с помощью Uphold";
 
 /* No comment provided by engineer. */
 "By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Удалив кошелёк, у Вас больше не будет доступа к средствам на этом устройстве. Данное действие следует совершать только в том случае, если у Вас больше нет доступа к вашей кодовой фразе и Вы также забыли свой PIN.";
@@ -674,7 +674,7 @@
 "Public key" = "Публичный ключ";
 
 /* No comment provided by engineer. */
-"Quick Receive" = "Получить быстро";
+"Receive WEI" = "Получить WEI";
 
 /* No comment provided by engineer. */
 "Quorums validated: %d/%d" = "Утверждённые кворумы: %1$d/%2$d";
@@ -773,10 +773,10 @@
 "Scan this to Pay" = "Отсканируйте для оплаты";
 
 /* Translate it as short as possible! (24 symbols max) */
-"Scan to Pay" = "Оплатить по QR-коду";
+"Scan to Pay" = "Оплатить";
 
 /* No comment provided by engineer. */
-"Scan to Send" = "Сканировать";
+"Send WEI" = "Отправить WEI";
 
 /* (Send by) Scanning QR code */
 "Scanning QR code" = "QR-коду";

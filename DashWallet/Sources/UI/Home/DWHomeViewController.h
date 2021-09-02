@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol DWHomeViewControllerDelegate <NSObject>
 
 - (void)homeViewControllerShowReceivePayment:(DWHomeViewController *)controller;
+- (void)homeViewControllerShowSendPayment:(DWHomeViewController *)controller;
 
 @end
 

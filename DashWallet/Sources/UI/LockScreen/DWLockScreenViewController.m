@@ -287,7 +287,7 @@ static CGFloat ActionButtonsHeight(void) {
 
     [self.forgotPinButton setTitle:NSLocalizedString(@"Forgot PIN?", nil) forState:UIControlStateNormal];
 
-    self.quickReceiveButton.title = NSLocalizedString(@"Quick Receive", nil);
+    self.quickReceiveButton.title = NSLocalizedString(@"Receive WEI", nil);
     self.quickReceiveButton.image = [UIImage imageNamed:@"icon_lock_receive"];
 
     switch (self.model.biometryType) {
@@ -311,7 +311,7 @@ static CGFloat ActionButtonsHeight(void) {
     }
     [self hideLoginButtonIfNeeded];
 
-    self.scanToPayButton.title = NSLocalizedString(@"Scan to Send", nil);
+    self.scanToPayButton.title = NSLocalizedString(@"Send WEI", nil);
     self.scanToPayButton.image = [UIImage imageNamed:@"icon_lock_scan_to_pay"];
 
     [self.keyboarView configureFunctionButtonAsHidden];

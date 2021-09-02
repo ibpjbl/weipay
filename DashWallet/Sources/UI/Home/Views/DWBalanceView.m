@@ -82,17 +82,18 @@ static NSTimeInterval const ANIMATION_DURATION = 0.3;
     self.backgroundColor = [UIColor dw_backgroundColor];
 
     self.titleLabel.font = [UIFont dw_fontForTextStyle:UIFontTextStyleCaption1];
-    self.titleLabel.textColor = [UIColor colorWithRed:166.0 / 255.0 green:215.0 / 255.0 blue:245.0 / 255.0 alpha:1.0];
+    self.titleLabel.textColor = [UIColor colorWithRed:255.0 / 255.0 green:255.0 / 255.0 blue:255.0 / 255.0 alpha:1.0];
 
-    self.eyeSlashImageView.tintColor = [UIColor dw_darkBlueColor];
+    self.eyeSlashImageView.tintColor = [UIColor whiteColor];
 
     self.tapToUnhideLabel.font = [UIFont dw_fontForTextStyle:UIFontTextStyleCaption2];
-    self.tapToUnhideLabel.textColor = [UIColor dw_lightTitleColor];
-    self.tapToUnhideLabel.alpha = 0.5;
+    self.tapToUnhideLabel.textColor = [UIColor whiteColor];
+    self.tapToUnhideLabel.alpha = 1;
 
     self.dashBalanceLabel.font = [UIFont dw_fontForTextStyle:UIFontTextStyleTitle1];
+    self.dashBalanceLabel.textColor = [UIColor whiteColor];
     self.fiatBalanceLabel.font = [UIFont dw_fontForTextStyle:UIFontTextStyleCallout];
-
+    self.fiatBalanceLabel.textColor = [UIColor whiteColor];
     self.balanceViewHeightContraint.constant = BalanceButtonMinHeight();
 
     UILongPressGestureRecognizer *recognizer =
@@ -154,7 +155,7 @@ static NSTimeInterval const ANIMATION_DURATION = 0.3;
     UIFont *font = [UIFont dw_fontForTextStyle:UIFontTextStyleTitle1];
 
     self.dashBalanceLabel.attributedText = [balanceModel dashAmountStringWithFont:font
-                                                                        tintColor:balanceColor];
+                                                                        tintColor:[UIColor whiteColor]];
     self.fiatBalanceLabel.text = [balanceModel fiatAmountString];
     self.fiatBalanceLabel.hidden = balanceModel == nil;
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,30 +19,30 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkW-tQ-EHg">
-                        <rect key="frame" x="0.0" y="31" width="320" height="38.5"/>
+                        <rect key="frame" x="0.0" y="33.5" width="320" height="33.5"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V4F-Kn-9JI">
-                                <rect key="frame" x="0.0" y="1" width="36" height="36"/>
+                                <rect key="frame" x="0.0" y="-1.5" width="36" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="Epy-sO-2xF"/>
                                     <constraint firstAttribute="height" constant="36" id="nuk-3t-cPz"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zdc-n5-mPq">
-                                <rect key="frame" x="52" y="0.0" width="42" height="20.5"/>
+                                <rect key="frame" x="52" y="0.0" width="35.5" height="17"/>
                                 <color key="backgroundColor" name="SecondaryBackgroundColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" name="DarkTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="255" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTn-mf-98w" userLabel="Desc Label">
-                                <rect key="frame" x="52" y="23.5" width="42" height="15"/>
+                                <rect key="frame" x="52" y="20" width="35.5" height="13.5"/>
                                 <color key="backgroundColor" name="SecondaryBackgroundColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" horizontalHuggingPriority="258" translatesAutoresizingMaskIntoConstraints="NO" id="Le8-Ow-UBi" customClass="DWActionButton">
-                                <rect key="frame" x="110" y="-0.5" width="210" height="39"/>
+                                <rect key="frame" x="103.5" y="-3" width="216.5" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="fLj-el-bfo"/>
                                 </constraints>
@@ -80,8 +80,8 @@
                     <constraint firstItem="xkW-tQ-EHg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="d1y-jM-dj9"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" name="SecondaryBackgroundColor"/>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <color key="backgroundColor" name="SecondaryBackgroundColor"/>
             <connections>
                 <outlet property="actionButton" destination="Le8-Ow-UBi" id="gOn-Fr-lgz"/>
                 <outlet property="descriptionLabel" destination="CTn-mf-98w" id="emb-bS-jMI"/>

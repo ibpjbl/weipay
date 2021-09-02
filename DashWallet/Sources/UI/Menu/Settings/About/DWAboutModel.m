@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 
     NSBundle *bundle = [NSBundle mainBundle];
 
-    return [NSString stringWithFormat:@"DashWallet v%@ - %@%@",
+    return [NSString stringWithFormat:@"WEIpay v%@ - %@%@",
                                       bundle.infoDictionary[@"CFBundleShortVersionString"],
                                       bundle.infoDictionary[@"CFBundleVersion"],
                                       networkString];

@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)dw_tertiaryTextColor;
 + (UIColor *)dw_quaternaryTextColor;
 + (UIColor *)dw_redColor;
-+ (UIColor *)dw_darkBlueColor;
++ (UIColor *)dw_blackColor;
 + (UIColor *)dw_greenColor;
 + (UIColor *)dw_orangeColor;
 + (UIColor *)dw_disabledButtonColor;
@@ -67,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)dw_declineButtonColor;
 
-+ (UIColor *)dw_blueGradientStartColor;
++ (UIColor *)dw_silverGradientStartColor;
 
 @end
 

@@ -150,11 +150,11 @@ NS_ASSUME_NONNULL_BEGIN
     UIImage *logoImage = nil;
     CGFloat logoHeight;
     if ([DWEnvironment sharedInstance].currentChain.chainType == DSChainType_TestNet) {
-        logoImage = [UIImage imageNamed:@"dash_logo_testnet"];
+        logoImage = [UIImage imageNamed:@"wei_logo_testnet"];
         logoHeight = 40.0;
     }
     else {
-        logoImage = [UIImage imageNamed:@"dash_logo_template"];
+        logoImage = [UIImage imageNamed:@"wei_logo_bar"];
         logoHeight = 23.0;
     }
     NSParameterAssert(logoImage);

@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol DWReceiveModelProtocol <NSObject>
 
 @property (nullable, readonly, nonatomic, strong) UIImage *qrCodeImage;
+@property (nullable, readonly, nonatomic, strong) UIImage *qrCodeImage2;
 @property (nullable, readonly, nonatomic, copy) NSString *paymentAddress;
 @property (readonly, nonatomic, assign) CGSize qrCodeSize;
 @property (readonly, nonatomic, assign) uint64_t amount;

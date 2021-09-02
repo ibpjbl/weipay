@@ -207,8 +207,8 @@ static CGSize const LOGO_SIZE = {54.0, 54.0};
         NSData *imageData = [DWAppGroupOptions sharedInstance].receiveQRImageData;
         UIImage *image = [UIImage imageWithData:imageData];
         UIImage *resizedImage = [image dw_resize:QR_SIZE withInterpolationQuality:kCGInterpolationNone];
-        UIImage *overlayLogo = [[UIImage imageNamed:@"dash_logo_qr"] dw_resize:LOGO_SIZE
-                                                      withInterpolationQuality:kCGInterpolationMedium];
+        UIImage *overlayLogo = [[UIImage imageNamed:@"wei_logo_qr"] dw_resize:LOGO_SIZE
+                                                     withInterpolationQuality:kCGInterpolationMedium];
         resizedImage = [resizedImage dw_imageByCuttingHoleInCenterWithSize:HOLE_SIZE];
         UIImage *result = [resizedImage dw_imageByMergingWithImage:overlayLogo];
 

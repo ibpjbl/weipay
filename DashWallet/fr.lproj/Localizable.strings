@@ -155,7 +155,7 @@
 "Buy Dash" = "Acheter du Dash";
 
 /* No comment provided by engineer. */
-"Buy Dash with Uphold account" = "Acheter des dashs avec un compte Uphold";
+"Buy WEI with Uphold account" = "Acheter des dashs avec un compte Uphold";
 
 /* No comment provided by engineer. */
 "By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "En effaçant ce portefeuille, vous n'aurez plus accès aux fonds sur cet appareil. Ne le faites que si vous n'avez plus accès ni à votre phrase de passe, ni à votre code PIN.";

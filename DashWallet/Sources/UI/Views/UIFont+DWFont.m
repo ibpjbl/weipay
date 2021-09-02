@@ -67,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init {
     self = [super init];
     if (self) {
-        NSURL *url = [[NSBundle mainBundle] URLForResource:@"Montserrat" withExtension:@"plist"];
+        NSURL *url = [[NSBundle mainBundle] URLForResource:@"Roboto" withExtension:@"plist"];
         NSDictionary *data = [NSDictionary dictionaryWithContentsOfURL:url];
         NSParameterAssert(data);
 
@@ -127,11 +127,11 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 + (UIFont *)dw_regularFontOfSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"Montserrat-Regular" size:fontSize];
+    return [UIFont fontWithName:@"Roboto-Regular" size:fontSize];
 }
 
 + (UIFont *)dw_mediumFontOfSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"Montserrat-Medium" size:fontSize];
+    return [UIFont fontWithName:@"Roboto-Medium" size:fontSize];
 }
 
 @end

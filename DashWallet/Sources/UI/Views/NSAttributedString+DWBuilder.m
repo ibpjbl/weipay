@@ -107,7 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
     const CGSize symbolSize = CGSizeMake(side, side);
     NSTextAttachment *dashSymbol = [[NSTextAttachment alloc] init];
     dashSymbol.bounds = CGRectMake(0, 0, symbolSize.width, symbolSize.height);
-    dashSymbol.image = [[UIImage imageNamed:@"icon_dash_currency"] ds_imageWithTintColor:tintColor];
+    dashSymbol.image = [UIImage imageNamed:@"icon_wei_currency"];
 
     return [NSAttributedString attributedStringWithAttachment:dashSymbol];
 }
